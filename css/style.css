@@ -1,0 +1,132 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    color: #D3D3D3;
+    background-color: #1B2838;
+}
+a {
+    text-decoration: none;
+    color: #D3D3D3;
+}
+a:hover {
+    text-shadow: 0 0 5px #FFFFFF;
+    color: #FFFFFF;
+}
+a.name {
+    text-decoration: none;
+}
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    column-gap: 30px;
+    font-size: 30px;
+    font-family: sans-serif;
+    background-color: #171A22;
+    box-shadow: 0px 5px 5px #000000;
+}
+.header .logo {
+    margin-left: 200px;
+    animation: rotation 0.25s 1 linear;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+.header .name {
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.header .name:hover {
+    text-shadow: 0 0 5px #FFFFFF;
+}
+.header .home {
+    margin-left: auto;
+}
+.header .contact {
+    margin-right: 200px;
+}
+.post {
+    width: 750px;
+    min-height: 0px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-style: solid;
+    border-color: #171A22;
+    background-color: #171A22;
+    box-shadow: 5px 5px 5px #000000;
+}
+.post .title {
+    padding: 5px;
+    width: 740px;
+    height: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #1B2838;
+}
+.post .info {
+    padding: 5px;
+    font-style: italic;
+    color: #D3D3D3;
+}
+#post1 {
+    position: relative;
+    animation-name: post1;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+#post2 {
+    position: relative;
+    animation-name: post2;
+    animation-duration: 0.75s;
+    animation-fill-mode: forwards;
+}
+#post3 {
+    position: relative;
+    animation-name: post3;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+#post4 {
+    position: relative;
+    animation-name: post4;
+    animation-duration: 1.25s;
+    animation-fill-mode: forwards;
+}
+@keyframes post1 {
+    from {
+        left: -750px;
+    }
+    to {
+        left: 585px;
+    }
+}
+@keyframes post2 {
+    from {
+        left: -750px;
+    }
+    to {
+        left: 585px;
+    }
+}
+@keyframes post3 {
+    from {
+        left: -750px;
+    }
+    to {
+        left: 585px;
+    }
+}
+@keyframes post4 {
+    from {
+        left: -750px;
+    }
+    to {
+        left: 585px;
+    }
+}

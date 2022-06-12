@@ -1,0 +1,19 @@
+a.updates {
+    text-decoration: underline;
+    text-shadow: 0 0 5px #FFFFFF;
+    color: #FFFFFF;
+}
+#post1 {
+    position: relative;
+    animation-name: post1;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes post1 {
+    from {
+        left: -750px;
+    }
+    to {
+        left: 585px;
+    }
+}

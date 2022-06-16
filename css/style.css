@@ -12,13 +12,14 @@ a:hover {
     text-shadow: 0 0 5px #FFFFFF;
     color: #FFFFFF;
 }
-a.name {
-    text-decoration: none;
-}
 .header {
     display: flex;
     align-items: center;
-    padding: 20px;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
     column-gap: 30px;
     font-size: 30px;
     font-family: sans-serif;
@@ -26,7 +27,6 @@ a.name {
     box-shadow: 0px 5px 5px #000000;
 }
 .header .logo {
-    margin-left: 200px;
     animation: rotation 0.25s 1 linear;
 }
 @keyframes rotation {
@@ -47,8 +47,18 @@ a.name {
 .header .home {
     margin-left: auto;
 }
-.header .contact {
-    margin-right: 200px;
+.header .account {
+    display: flex;
+    font-size: 20px;
+    white-space: pre;
+}
+.header .account .signin:hover {
+    text-shadow: none;
+    text-decoration: underline;
+}
+.header .account .signup:hover {
+    text-shadow: none;
+    text-decoration: underline;
 }
 .post {
     width: 750px;
